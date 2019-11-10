@@ -1,0 +1,29 @@
+[
+
+
+		{
+        "id" : 1,
+		"priority" : 1,
+        "action" : { "type" : "redirect", "redirect" : {
+			"transform" : { "scheme" : "https", "host" : "localhoasdfsst", "port": "5000" }
+		}
+		}
+		,
+        "condition" : {
+			"resourceTypes" : ["main_frame"]
+        }
+		},
+		
+		{
+        "id" : 2,
+		"priority" : 2,
+        "action" : { "type" : "redirect", "redirect" : {
+			"transform" : { "scheme" : "https", "host" : "localhost", "port": "5000" }
+		}
+		}
+		,
+        "condition" : {
+        }
+		}
+		
+]

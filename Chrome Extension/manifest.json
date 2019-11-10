@@ -1,0 +1,13 @@
+      {
+        "name": "StreamFilter",
+        "version" : "1",
+		"manifest_version" : 2,
+        "declarative_net_request" : {
+          "rule_resources" : ["rules.json"]
+        },
+        "permissions": [
+          "declarativeNetRequest",
+          "http://*/*",
+		  "https://*/*"
+        ]
+      }
