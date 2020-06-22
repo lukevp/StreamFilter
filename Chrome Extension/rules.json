@@ -5,7 +5,7 @@
         "action" : { 
 			"type" : "redirect", 
 			"redirect" : {
-				"transform" : { "scheme" : "https", "host" : "localhost", "port": "5000" }
+				"transform" : { "scheme" : "sadf", "port" : "39293" }
 			}
 		},
         "condition" : { }
